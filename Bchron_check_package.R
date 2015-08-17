@@ -38,7 +38,7 @@ ages3 = BchronCalibrate(ages=c(3445,11553),
                         positions=c(100,150), 
                         calCurves=c('intcal13','normal'))
 summary(ages3)
-plot(ages3,withDepths=TRUE)
+plot(ages3,withPositions=TRUE)
 
 #####
 
